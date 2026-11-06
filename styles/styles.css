@@ -35,9 +35,9 @@ p {
 }
 
 aside {
-    width: 400px;
+    width: 24rem;
     margin: 1rem;
-    border: 1px solid rbg(0 0 0 /.3);
+    border: 1px solid rbg(0 0 0 /0.3);
     padding: 15px;
     background: #59649c;
     color: #2e2f36;
@@ -50,7 +50,7 @@ aside img {
 }
 
 footer {
-    margin-top: auto;
-    border-top: double;
+    margin-top: 15px;
+    border-top: 1px double #000;
     text-align: center;
 }
