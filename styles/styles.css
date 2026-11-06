@@ -37,7 +37,7 @@ p {
 aside {
     width: 24rem;
     margin: 1rem;
-    border: 1px solid rbg(0 0 0 /0.3);
+    border: 1px solid;
     padding: 15px;
     background-color: #59649c;
     color: #2e2f36;
