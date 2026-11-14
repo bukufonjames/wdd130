@@ -64,10 +64,6 @@ section h2 {
     text-align: center;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero article {
     position: absolute;
     top: 280px;
@@ -92,4 +88,8 @@ section h2 {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
