@@ -1,6 +1,6 @@
 :root {
     --primary-colour: #F7F5F0;
-    --secondary-color: rgb(108, 199, 18);
+    --secondary-color: rgb(119, 82, 119);
     --accent1-color: #614051;
     --accent2-color: #2B2629;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -58,12 +58,6 @@ article {
 
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-    border: solid;
-}
-
 section h2 {
     background-color: var(--accent1-color);
     color: var(--primary-colour);
@@ -72,6 +66,22 @@ section h2 {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.hero article {
+    position: absolute;
+    top: 280px;
+    background-color: var(--secondary-color);
+    opacity: 0.8;
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    border: solid;
+    position: relative;
 }
 
 .hero {
